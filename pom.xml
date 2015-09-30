@@ -5,6 +5,13 @@
 	<artifactId>jekintest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
@@ -21,7 +28,6 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-				
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
